@@ -1,4 +1,4 @@
-# Geographic-Information-System-New-York
+# Climate Comparison of New York with Python
 This repo compares the climate of New York at different times.
 
 ## Requirements
