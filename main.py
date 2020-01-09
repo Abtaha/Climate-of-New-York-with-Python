@@ -63,6 +63,11 @@ for i in range(1, 8):
 
     mapData.plot(linewidth=0.1, cmap="viridis")
     plt.imshow(interpolated.T, extent=(-80, -71, 40, 45), origin='lower', cmap="coolwarm", alpha=0.5)
+    
+    plt.title("Climate Comparison of New York")
+    plt.xlabel('Latitude')
+    plt.ylabel('Longitude')
 
     plt.colorbar()
+    plt.clim(vmin=-8, vmax=12)
     plt.show()
