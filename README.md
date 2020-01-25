@@ -1,6 +1,8 @@
 # Climate Comparison of New York with Python
 This repo compares the climate of New York at different times.
 
+![Demo](./Images/output.gif)
+
 ## Requirements
 
 * Geopandas
